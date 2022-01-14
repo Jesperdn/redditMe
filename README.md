@@ -5,7 +5,7 @@ Written in Python using Requests and JSON
 ## Usage
 Either run 'reddit_me.py [subreddit]' for a random post from that subreddit posted in the last 24h or use the following optional args:
 
-'''shell
+'''
 For listings:
   -c : controversial
   -b : best
