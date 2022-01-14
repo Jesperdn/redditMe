@@ -3,7 +3,8 @@ Shows posts in terminal using Reddit API
 Written in Python using Requests and JSON
 
 ## Usage
-Either run 'reddit_me.py [subreddit]' for a random post from that subreddit posted in the last 24h or use the following optional args:
+Either run 
+`reddit_me.py [subreddit]` for a random post from that subreddit posted in the last 24h or use the following optional args:
 
 ```
 For listings:
@@ -25,7 +26,7 @@ For timeframes:
 ```
 
 ### Specify timeperiod for random posts
- Run the script with 'python3 reddit_me.py [subreddit] [timeframe]'
+ Run the script with `python3 reddit_me.py [subreddit] [timeframe]`
  
 ### Full control
- Run the script with 'python3 reddit_me.py [subreddit] [listing] [timeframe] [number of posts displayed]'
+ Run the script with `python3 reddit_me.py [subreddit] [listing] [timeframe] [number of posts displayed]`
