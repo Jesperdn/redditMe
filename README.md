@@ -26,7 +26,7 @@ For timeframes:
 ```
 
 ### Specify timeperiod for random posts
- Run the script with `python3 reddit_me.py [subreddit] [timeframe]`
- 
+ Run the script with `python3 reddit_me.py [subreddit] [timeframe] [number of posts displayed]`
+
 ### Full control
- Run the script with `python3 reddit_me.py [subreddit] [listing] [timeframe] [number of posts displayed]`
+ Run the script with `python3 reddit_me.py [subreddit] [listing] [timeframe]`
