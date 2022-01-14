@@ -27,7 +27,7 @@ timeframes = {
 '''Default values'''
 count = 1 # Instances of same post
 number_of_posts = 1 # Unique post
-timeframe = 'week'
+timeframe = 'day'
 listing = 'random'
 subreddit = 'todayilearned'
 
@@ -55,8 +55,8 @@ def get_reddit(subreddit, count):
 
 def print_result(title, author, subreddit, score, ups_rate, url, permalink):
     print(f"\n~~~~~~~~~ Post from u/{author} in r/{subreddit} ~~~~~~~~~")
-    print(f"{title}")
-    print(f"|  Score|Upvote ratio             {score} | {ups_rate} \n|")
+    print(f"\n{title}\n")
+    print(f"|  Score|Upvote ratio             {score}|{ups_rate} \n|")
     print(f"|  Posted link: {url}\n|")
     print(f"|  Url: https://reddit.com{permalink}\n|")
 
