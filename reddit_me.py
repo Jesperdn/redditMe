@@ -38,6 +38,8 @@ subreddit = 'todayilearned'
 args = sys.argv
 if len(args) == 2:
     subreddit = args[1]
+if len(args) == 3:
+    subreddit = args[1]
     number_of_posts = int(args[2])
 if len(args)  == 4:
     subreddit = args[1]
