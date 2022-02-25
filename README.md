@@ -1,5 +1,5 @@
 # redditMe
-Vis poster i terminalen ved hjelp av Reddit's API
+Vis posts i terminalen ved hjelp av Reddit's API
 
 Skrevet i Python med Requests og JSON
 
@@ -27,8 +27,12 @@ For tidsrammer:
   -a : all
 ```
 
-### Bestem tidsramme for tilfeldig poster 
- Run the script with `python3 reddit_me.py [subreddit] [timeframe] [number of posts displayed]`
+### Bestem tidsramme for tilfeldig posts 
+```
+$ python3 reddit_me.py [subreddit] [timeframe] [number of posts displayed]
+```
 
 ### Full kontroll
- Run the script with `python3 reddit_me.py [subreddit] [listing] [timeframe]`
+```
+$ python3 reddit_me.py [subreddit] [listing] [timeframe]
+```
