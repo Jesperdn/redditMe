@@ -4,7 +4,7 @@ Vis poster i terminalen ved hjelp av Reddit's API
 Skrevet i Python med Requests og JSON
 
 ## Bruk
-Enten kjr:
+Enten kjør:
 
 `reddit_me.py [subreddit]` for en tilfeldig post fra den subredditen postet innenfor de siste 24 timer, eller bruk følgende valgfrie argumenter: 
 
